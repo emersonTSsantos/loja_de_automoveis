@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: black;
+    color: #fff;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+}
+
+header,footer {
+    background-color: #192a56;
+    padding-top: 16px;
+    color: #fff;
+}
+
+header > .container,
+footer > .container{
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+nav {
+    background-color: #575fcf;
+    padding: 16px 0;
+    padding-right: 30px;
+    display: none;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+
+}
+.menuHamburguer {
+    width: 32px;
+    cursor: pointer;
+}
+
+.menuHamburguer span {
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    display: block;
+    margin-bottom: 4px;
+    
+}
+
+#sobreAloja h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container-flex {
+    display: flex;
+}
+
+#sobreAloja img {
+    max-width: 400px;
+    margin-right: 24px;
+}
+
+section {
+    padding: 48px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+.listaDeVeiculos {
+    flex-wrap: wrap;
+}
+
+.listaDeVeiculos li{
+    list-style: none;
+    max-width: 30%;
+    margin-bottom: 24px;
+}
+
+.listaDeVeiculos li img {
+    max-width: 100%;
+}
+
+.listaDeVeiculos li h3{
+    margin: 16px 0;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: #119759;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;
+} 
+
+button:hover {
+    background-color: #0ebb6a;
+}
+
+.price {
+    margin: 16px 0;
+    display: block;
+}
+
+.price del {
+    color: #ccc;
+    font-size: 12px;
+}
+
+.item-Central {
+    margin: 0 5%;
+}
+
+.form-campo {
+    margin-bottom: 16px;
+}
+
+.form-campo label {
+    font-weight: bold;
+    display: block;
+}
+
+.form-campo input ,
+.form-campo textarea {
+    width: 100%;
+    display: block;
+    padding: 8px;
+}
+
+.form-campo textarea {
+    resize: none;
+    max-width: 260px;
+}
+
+form {
+    max-width: 260px;
+}
+
+form button {
+    max-width: 120px;
+}
+
+footer li img {
+    height: 32px;
+    margin-left: 16px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+label.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+
+
+
+
